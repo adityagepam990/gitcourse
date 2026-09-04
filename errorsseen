@@ -1,0 +1,8 @@
+# C:\Users\AdityaGollapalli\Downloads\gitcourse>git remote add -u origin https://github.com/adityagepam990/gitcourse.git
+# fatal: not a git repository (or any of the parent directories): .git
+
+## This error happens when the repo is not initialised with .git or Git.
+
+### To fix this:
+- git init
+- git remote add origin https://github.com/adityagepam990/gitcourse.git
