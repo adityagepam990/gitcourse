@@ -6,3 +6,14 @@
 ### To fix this:
 - git init
 - git remote add origin https://github.com/adityagepam990/gitcourse.git
+
+-----
+
+# This error happens because your remote repository on GitHub already contains files 
+# (for example, if you checked the box to "Add a README file", "Add .gitignore", or "Choose a license" when creating the repository on GitHub), but your local folder doesn't have those files yet.
+
+## You need to pull (fetch and merge) the changes from GitHub to your local machine first. Run the following command:
+> git pull origin main --allow-unrelated-histories
+
++ Once the pull is completed then push it
+
