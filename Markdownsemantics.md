@@ -45,5 +45,31 @@ https://www.linkedin.com
 # Images
 ---
 ![Fruit bowl](https://www.californiastrawberries.com/rainbow-fruit-salad/)
+There are other ways. **Find out how to link images while in repo**
+
+===
+# Code Insertion
+***
+```python
+def romantoInt(s: str) -> int:
+  roman_map = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+  total = 0
+  length = len(s)
+
+  for i in range(length):
+    if i+1 < length and roman_map[s[i]] < roman_map[s[i+1]]:
+      total -= roman_map[s[i]]
+    else:
+      total += roman-map[s[i]]
+  return total
+```
+## *Example Usage*
+***
+```python
+print(romantoInt("III"))
+print(romantoInt("LVII"))
+print(romantoInt("MCMXCV"))
+```
+*****
 
 
